@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="io.Danxupe.pelikepc"
+    android:versionCode="1"
+	android:versionName="build 1">
+	
+	<uses-permission
+		android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission
+		android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission 
+		android:name="android.permission.INTERNET" />
+    <uses-permission
+		android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+		android:name="android.permission.VIBRATE" />
+    <uses-permission
+		android:name="android.permission.ACCESS_SUPERUSER" />
+    <uses-permission
+		android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission
+		android:name="net.zhuoweizhang.mcpelauncher.ADDON"/>
+	<uses-permission
+		android:name="android.permission.GET_ACCOUNTS" />
+	<uses-feature
+		android:name="android.hardware.microphone" android:required="false" />
+    <uses-sdk
+		android:minSdkVersion="14" />
+    
+	<application 
+		android:label="PElikePC"
+		android:largeHeap="true" >
+		
+		<meta-data
+			android:name="net.zhuoweizhang.mcpelauncher.api.nativelibname"
+			android:value="pelikepc"/>
+
+		<meta-data 
+			android:name="net.zhuoweizhang.mcpelauncher.api.targetmcpeversion"
+			android:value="1.0.2.1"/>
+	</application>
+	
+</manifest> 
